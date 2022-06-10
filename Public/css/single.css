@@ -1,0 +1,336 @@
+html,
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.icon span {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.icon span:hover {
+    color: #FFCCFF;
+    cursor: pointer;
+}
+
+.hotline {
+    padding-top: 10px;
+}
+
+.dk {
+    padding-top: 10px;
+}
+
+.dk a {
+    color: #000;
+}
+
+.thanhheader {
+    background: #CCCCCC;
+}
+
+.thanhmenu {
+    margin-top: 70px;
+}
+
+.row1 {
+    margin-top: 30px;
+}
+
+video {
+    margin-top: 5px;
+}
+
+.taobang {
+    background: #FF9966;
+}
+
+.tieude {
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding: 0 0 8px 0;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px #555;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box .box-heading {
+    width: 90%;
+    position: absolute;
+    bottom: 25px;
+    left: 5%;
+    background: rgba(7, 185, 244, 0.6);
+    padding: 10px 60px 10px 25px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.box:hover .box-heading {
+    left: 100%;
+}
+
+.box .box-heading:after {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 13px;
+    right: 11px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.box .title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box .post {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.box .boxContent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    padding: 30px 35px;
+    background: rgba(7, 185, 244, 0.8);
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+}
+
+.box:hover .boxContent {
+    left: 0;
+}
+
+.box .description {
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 990px) {
+    .box {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .box .boxContent {
+        padding: 10px;
+    }
+}
+
+.box .cart {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #20211c;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.box .cart:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #3fc9f7;
+}
+
+.box .cart i {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.card img {
+    padding: 10px;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.TĐ {
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding: 0 0 15px 0;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+
+.container {
+    margin-top: 30px;
+}
+
+/* .price.product-price-old {
+    display: block;
+    color: #ADADAD;
+    font-size: 1.07143em;
+    margin-top: 7px;
+} */
+
+span.discount {
+    color: #FE9705;
+    font-size: 0.5cm;
+    margin-left: 20px;
+}
+
+/* .special-price {
+    display: block;
+    color: #FE9705;
+    font-size: 30px;
+    margin-top: 7px;
+} */
+
+.nho input {
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+video {
+    margin-top: 5px;
+}
+
+.ykien {
+    padding-top: 20px;
+}
+
+.anhnen {
+    background-image: url('https://img4.thuthuatphanmem.vn/uploads/2020/07/05/hinh-anh-background-trang-xanh-cuc-dep_034915707.jpg');
+}
+.chitiet {
+    margin-top: 10px;
+}
+.footer {
+    background-color: rgb(37, 9, 9);
+    color: white;
+    min-height: 200px;
+}
+
+.footer_wap {   
+    margin: 0 auto;
+}
+
+.box_footer {
+    width: 31%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+h3 {
+    color: rgb(216, 167, 6);
+    font-size: 25px;
+}
+
+.p_footer {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.product {
+    padding: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+    display: inline-block;
+}
+.product-tabs {
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e3df;
+    margin-top: 0px;
+    text-align: center;
+    width: 100%;
+}
+.nav-tabs>li>a.active, .nav-tabs>li>a.active:hover, .nav-tabs>li>a.active:focus {
+    padding: 11px 12px 12px 12px;
+    border: none;
+    border-bottom: 1px solid #ff7600;
+    color: #ff7600;
+}
+.nav-tabs.product-tabs>li>a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    border: none;
+    padding: 12px;
+}
+.product-tabs li a {
+    border-bottom: none;
+    color: #8c8b8b;
+    margin-right: 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+    padding: 0 12px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.ten-bang.ha {
+    background: #fff;
+}
+
+.ten-bang.ha h1:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    right: -35px;
+    height: 0;
+    border-style: solid;
+    border-width: 23px 16px 23px 0;
+}
+.ten-bang:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+

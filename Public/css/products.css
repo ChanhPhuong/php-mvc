@@ -1,0 +1,40 @@
+.dam {
+	line-height: 20px;
+    letter-spacing: 2px;
+    padding: 0 0 15px 0;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    margin-top: 30px;
+    margin-left: 590px;
+}
+.tab-title {
+    border: 1px dashed #ddd;
+    margin-bottom: 20px;
+    display: flex;
+}
+.h2-title {
+    border: none;
+    float: left;
+    margin: 0;
+    border: 2px solid #834453;
+    color: #834453;
+    font-size: 20px;
+    height: 42px;
+    padding: 8px 10px;
+    position: relative;
+    width: 42px;
+}
+.tab-title .title-product {
+    font-size: 20px;
+    margin: 10px;
+    color: #834453;
+}
+.nho input{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.nho {
+    font-size: 20px;
+}
