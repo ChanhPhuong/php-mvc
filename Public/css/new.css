@@ -1,0 +1,107 @@
+.side-nav-categories, .side-nav-categories .block {
+    display: inline-block;
+    width: 300px;
+    border: 2px solid #ff7600;
+    margin-bottom: 15px;
+}
+.side-nav-categories .block-title {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 11px 15px;
+    font-weight: normal;
+    background-color: #ff7600;
+    letter-spacing: 1px;
+    margin-left: -12px;
+    margin-right: -13px;
+}
+.box-category {
+    padding: 8px 0 0px;
+}
+.sidebar ol, .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+.box-category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px 15px !important;
+}
+ul#magicat li, ul#magicat2 li ul.listStyle li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 1px 0;
+    padding-left: 0px;
+    position: relative;
+    width: 100% !important;
+    box-shadow: 0 1px 0 #ddd, 0 2px 0 #ffffff;
+}
+.box-category>ul>li:first-child {
+    border-top: 0;
+}
+.box-category ul li {
+    position: relative;
+}
+.box-category>ul>li {
+    display: block;
+    position: relative;
+    box-shadow: 0 1px 0 #ddd, 0 2px 0 #ffffff;
+    margin: 0;
+}
+.side-nav-categories ul li {
+    padding: 2px 0px;
+}
+.block-title h3 {
+    margin: 0;
+    font-size: 25px;
+    display: inline;
+    color: #fff;
+}
+ul#magicat li .open-close, .block-layered-nav dt .toggleBtn {
+    background: url(//bizweb.dktcdn.net/100/368/970/themes/740033/assets/leftnav.png?1638814062528) no-repeat scroll 12px 3px;
+}
+ul#magicat li .open-close, ul#magicat2 li .open-close, .block-layered-nav dt .toggleBtn {
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 30px;
+}
+ul#magicat li .open-close, ul#magicat2 li .open-close, .block-layered-nav dt .toggleBtn {
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+}
+.box-category>ul>li>ul li {
+    padding: 0px;
+}
+.hoverimage img {
+    -webkit-transform: scale(0.9);
+    /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+    -moz-transform: scale(0.8);
+    /*Thu nhỏ đối với Mozilla*/
+    -o-transform: scale(0.8);
+    /*Thu nhỏ đối với Opera*/
+    -webkit-transition-duration: 0.5s;
+    /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+    -moz-transition-duration: 0.5s;
+    /*Như trên*/
+    -o-transition-duration: 0.5s;
+    /*Như trên*/
+    margin: 0 10px 5px 0;
+    /*căn đều giữa ảnh*/
+}
+
+.hoverimage img:hover {
+    -webkit-transform: scale(0.95);
+    /* Webkit: Tăng kích cỡ ảnh lên 1.1 lần */
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

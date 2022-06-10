@@ -1,0 +1,496 @@
+
+body{
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.collapse ul li {
+    float: left;
+    list-style: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
+    font-weight: bold;
+    display: block; 
+    padding-top: 10px;
+    }
+    #nav{
+        display: flex;
+        
+    }
+    .collapse ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(221, 103, 35);
+    }
+    a{
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+    }
+    a{
+        background-color: transparent;
+    }
+    a:hover{
+        color: rgb(129, 105, 78);
+    }
+    
+    
+    main{
+        padding-top: 30px;
+    }
+    p{
+        color: red;
+    }
+    .text {
+        clear: both;
+        color: rgb(20, 20, 20);
+        position: absolute;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        width: 300px;
+        margin-top: 40px;
+        
+        }
+        .khoi{
+            width: 100%;
+            height: auto;   
+            
+        }
+        .chu1{
+            font-size: 30px;
+        }
+        div .khoi1:hover{
+            border: 1px solid #777;
+        }
+        .nav-link{
+            color: black;
+        }
+        .nav-link:hover{
+            color: rgb(221, 103, 35);
+        }
+        .dangnhap{
+            float: right;
+            padding-bottom: 40px;
+           
+        }
+        .new_title{
+            position: relative;
+        }
+        .new_title h2 a:hover{
+            color: #9e5515;
+        }
+        .new_title.text-center h2 {
+        padding: 6px 12px;
+        z-index: 9;
+        }
+        .new_title h2 a {
+        color: #fff;
+        }
+        .new_title h2 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 35px;
+        margin: 0;
+        padding: 5px 12px 5px 20px;
+        position: relative;
+        display: inline-block;
+        letter-spacing: normal;
+        background: #ff7600;
+        text-align: center;
+        }
+      
+        .new_title.text-center h2:before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 23px 16px 23px 0;
+        border-color: transparent #ff7600 transparent transparent;
+        position: absolute;
+        left: -16px;
+        top: 0px;
+        }
+        
+        .new_title.text-center h2:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 23px 0 23px 16px;
+        border-color: transparent transparent transparent #ff7600;
+        position: absolute;
+        right: -16px;
+        top: 0px;
+        }
+        
+        .new_title.text-center:after {
+        content: '';
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        bottom: 23px;
+        left: 0;
+        background: #ff7600;
+        z-index: 0;
+        }  
+        
+
+    input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    }
+    button, select {
+    text-transform: none;
+    }
+    button {
+    overflow: visible;
+    }
+    button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    }
+    button{
+    background-color: rgb(255, 255, 255);
+
+    }
+    button a{
+    color: #ff7600;
+    }
+    button a:hover{
+
+    color: white;
+    }
+    
+    .new_title.t {
+        background: #fff;
+    }
+    .new_title {
+        position: relative;
+        margin-bottom: 0px;
+    }
+/*
+.new_title.t h2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    right: -35px;
+    height: 0;
+    border-style: solid;
+    border-width: 45px 0 0 36px;
+    border-color: transparent transparent transparent #ff7600;
+}
+*/
+.new_title:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ff7600;
+}
+
+ul.menu_phongkhach {
+    list-style: none;
+    padding: 10px 0;
+    background: #fff;
+    margin: 5px 0 0;
+    
+}
+ul.menu_phongkhach li a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+}
+ul.menu_phongkhach li a:hover{
+    color: #ff7600;
+}
+
+
+.text1{
+    
+    color: rgb(20, 20, 20);
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    overflow: hidden;
+    background-color: #eb0303;;
+    width: 45px;
+    height: 30px;
+    overflow: hidden;
+}
+.t2{
+    font-size: 10px;
+}
+.bog .b-blog{
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 7px 15px;
+    clear: both;
+    height: auto;
+    bottom: 0;
+}
+
+
+
+.b-blog h3 p{
+    font-size: 15px;
+    margin: 0 0 6px;
+    font-weight: 600;
+    
+}
+.b-blog p{
+    
+    margin: 0;
+}
+.khoi ul{
+    margin: 0px;
+    padding: 0px;
+}
+.khoi ul li{
+    list-style-type: none;
+}
+.khoi h4{
+    padding: 10px 0 10px;
+    font-size: 18px;
+    margin: 0;
+}
+.khoi ul li :hover{
+    color: rgb(138, 17, 17);
+}
+h4{
+    font-size: 20px;
+    color: #ff7600;
+}
+main{
+    background-color: rgb(240, 239, 239);
+}
+.mau{
+    background-color: #fff;
+}
+.col-md-3{
+    padding-top: 30px;
+    
+}
+.btn-outline-warning{
+    color: #ff7600;
+}
+.btn-outline-warning:hover{
+    
+    color: white;
+}
+.price-box{
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    display: block;
+    margin: 0 0 10px;
+    padding: 3px 0;
+}
+span.a-stock{
+    font-weight: 600;
+    color: #546081;
+    margin-right: 5px;
+    min-width: 100px;
+    display: inline-block;
+}
+span.a-stock1{
+    font-weight: 600;
+    color: #ff7600;
+}
+.button-muahang:hover{
+background-color: rgb(138, 17, 17);
+}
+.content-phu{
+    padding-top:10px;
+    font-size: 15px;
+}
+.khung-content{
+    border: 1px solid #f5f5f5;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+.first-part{
+    font-size: 15px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.603);
+    padding-left: 100px;
+}
+.thongtin{
+    padding-top: 10px;
+}
+.khung{
+    border: 1px solid #f5f5f5;
+    padding: 10px;
+}
+.card{
+    width: 100%;
+}
+.phongkhach1{
+    height: 50px;
+    padding-top: 10;
+}
+.descrip{
+    text-align: center;
+}
+.dangky{
+    padding: 15px  ;
+    height: 700px;
+    
+}
+.nut{
+    border: none;
+    color: #fff;
+    padding: 10px 17px;
+    border-radius: 20px;
+    border: 1px solid #ff7600;
+    transition: none;
+    min-width: 95px;
+    height: auto;
+    background: #ff7600;
+}
+.form-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul, ol {
+    padding-left: 15px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.form-list li {
+    margin: 0 0 10px;
+    position: relative;
+}
+.form-list label {
+    position: relative;
+    z-index: 0;
+    font-weight: normal;
+    color: #333;
+    display: inline;
+}
+.required {
+    color: #ff0000;
+}
+.account-login .form-list input.input-text {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    color: #aaa;
+}
+input.input-text, select, textarea {
+    padding: 7px 10px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+.tintuc{padding: 3px;}
+ .block1 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    padding: 11px 15px;
+    font-weight: normal;
+    background-color: #ff7600;
+    letter-spacing: 1px;
+}
+.sile{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #ff7600;
+    margin-bottom: 15px;
+}
+.box{
+    padding: 8px 0 0px;
+    padding: 8px;
+}
+.box ul li a{
+    display: block;
+    position: relative;
+    box-shadow: 0 1px 0 #ddd, 0 2px 0 #ffffff;
+    margin: 0;
+    padding: 8px 0px;
+}
+a .price-box1{
+    box-shadow: 0 1px 0 #ddd, 0 2px 0 #ffffff;
+}
+.mauchu a{
+    color: #ff7600;
+}
+.mauchu a:hover{
+    color: #ff7700c0;
+}
+.nut1{
+    border: none;
+    color: #fff;
+    padding: 10px 17px;
+    
+    border: 1px solid #ff7600;
+    transition: none;
+    min-width: 95px;
+    height: auto;
+    background: #ff7600;
+}
+.buttons-set {
+    margin-bottom: 15px;
+}
+div, a {
+    outline: none !important;
+}
+ .buttons-set button {
+    color: #fff;
+    border: 1px solid #ff7600;
+    background: #ff7600;
+    padding: 5px 25px;
+    min-width: 150px;
+    margin-top: 10px;
+}
+.buttons-set button:hover {
+background-color: red;
+}
+.chu3{
+    position: absolute;
+    height: 30;
+    background-color: #fff;
+    opacity: 0.6;
+}
+.chu5{
+    color:#ff7600;
+}
+.price-box2::after{
+   
+    content: '';
+    height: 0.5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ff7600;
+}
+.gioithieu{
+    padding-top: 20px;
+}
+.chubo{
+    font-size: 20px;
+    
+}
+.chubo ul li{
+    padding: 10px;
+}
+.field-icon {
+    float: right;
+    margin-right: 8px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+    cursor:pointer;
+  }
